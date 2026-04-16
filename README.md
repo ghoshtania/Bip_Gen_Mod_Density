@@ -4,7 +4,29 @@ Maximization of Generalized Bipartite Modularity Density ($Q_bg$) using bipartit
 
 This is an implementation of the Reduced Network Extremal Ensemble Learning (RenEEL) scheme for community detection in bipartite complex networks. The example network used here for illustration is the Southern Women–Event Bipartite Network (Davis, A., Gardner, B., & Gardner, M. (1941). Deep South: A social anthropological study of caste and class. University of Chicago Press).
 
-For comments/questions and reporting any bugs that you encounter in the program please contact Kevin E. Bassler (bassler@uh.edu)
+## Citation
+
+If you use this code, please cite:
+
+**Method (Bipartite Community Detection):**
+Ghosh, T., & Bassler, K. E. (2026).
+"Hierarchical Community Detection in Bipartite Networks."
+arXiv:2604.08793
+https://arxiv.org/abs/2604.08793
+
+**Related Work:**
+Ghosh, T. et al.,
+"Extreme Value Statistics of Community Detection in Complex Networks,"
+Entropy, 2025.
+https://doi.org/10.3390/e27060628
+
+**Software:**
+Ghosh, T. (2026).
+RenEEL for Bipartite Community Detection using Generalized Modularity Density (Q_bg).
+Zenodo.
+https://doi.org/10.5281/zenodo.19615030
+
+For comments/questions and reporting any bugs that you encounter in the program please contact Kevin E. Bassler (bassler@uh.edu) or Tania Ghosh (ghoshtania96@gmail.com)
 
 Usage: 
 To use the code, follow the steps below:
@@ -44,3 +66,7 @@ Example:
 
 file 1: `partition_Women_Event.txt` (or partition_[inputfile])
 file 2: `results_Women_Event.txt` (or results_[inputfile]), a copy will also be printed to stdout
+
+## Code Availability
+
+This code is currently under preparation and will be made publicly available upon publication. A pre-release version is available upon reasonable request.
